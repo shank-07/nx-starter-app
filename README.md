@@ -260,3 +260,11 @@ Join the Nx community:
 - [LinkedIn](https://www.linkedin.com/company/nrwl)
 - [YouTube](https://www.youtube.com/@nxdevtools)
 - [Blog](https://nx.dev/blog)
+
+
+
+Playwright with UI
+npx nx e2e shop-e2e --ui
+
+Run Jest Test
+npm run test:global

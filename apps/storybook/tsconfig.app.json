@@ -24,10 +24,6 @@
     "src/**/*.test.js",
     "src/**/*.spec.jsx",
     "src/**/*.test.jsx",
-    "vite.config.ts",
-    "vite.config.mts",
-    "vitest.config.ts",
-    "vitest.config.mts",
     "eslint.config.js",
     "eslint.config.cjs",
     "eslint.config.mjs",
@@ -39,19 +35,7 @@
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
   "references": [
     {
-      "path": "../../libs/shop/shared-ui/tsconfig.lib.json"
-    },
-    {
-      "path": "../../libs/shop/feature-products/tsconfig.lib.json"
-    },
-    {
-      "path": "../../libs/shop/feature-product-detail/tsconfig.lib.json"
-    },
-    {
-      "path": "../../libs/shop/data/tsconfig.lib.json"
-    },
-    {
-      "path": "../../libs/shared/models/tsconfig.lib.json"
+      "path": "../shop/tsconfig.app.json"
     }
   ]
 }

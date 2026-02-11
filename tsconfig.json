@@ -32,6 +32,12 @@
     },
     {
       "path": "./libs/shared/test-utils"
+    },
+    {
+      "path": "./apps/storybook"
+    },
+    {
+      "path": "./libs/jest-demo"
     }
   ]
 }
