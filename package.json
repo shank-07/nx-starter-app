@@ -8,10 +8,15 @@
   "private": true,
   "dependencies": {
     "@module-federation/enhanced": "^0.21.2",
+    "@reduxjs/toolkit": "^2.11.2",
+    "@tanstack/react-query": "^5.90.21",
+    "axios": "^1.13.5",
     "express": "^4.21.2",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-router-dom": "6.30.3"
+    "react-redux": "^9.2.0",
+    "react-router-dom": "6.30.3",
+    "zustand": "^5.0.11"
   },
   "devDependencies": {
     "@babel/core": "^7.14.5",
