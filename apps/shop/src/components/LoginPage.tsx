@@ -61,6 +61,7 @@ export function LoginPage() {
 						<input
 							type="password"
 							id="password"
+							data-testid="login-button"
 							name="password"
 							value={password}
 							onChange={(e) => setPassword(e.target.value)}
